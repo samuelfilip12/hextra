@@ -9,8 +9,9 @@ $entrada = $_POST["entrada"];
 $inicioIntervalo = $_POST["inicioIntervalo"];
 $fimIntervalo = $_POST["fimIntervalo"];
 $saida = $_POST["saida"];
-function calcularHoras($diaSemana, $entrada, $saida, $inicioIntervalo, $fimIntervalo)
-{
+
+function calcularHoras($diaSemana, $entrada, $saida, $inicioIntervalo, $fimIntervalo){
+    
     // Converter as horas para timestamps
     $entradaTimestamp = strtotime($entrada);
     $saidaTimestamp = strtotime($saida);

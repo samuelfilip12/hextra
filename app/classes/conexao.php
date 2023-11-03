@@ -1,6 +1,6 @@
 <?php
 
-$hostname = "localhost:3307";
+$hostname = "localhost";
 $dbname = "dbponto";
 $username = "root";
 $senha = "";
